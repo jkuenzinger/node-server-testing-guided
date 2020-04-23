@@ -12,6 +12,7 @@ module.exports = {
       directory: "./data/seeds",
     },
   },
+
   testing: {
     client: "sqlite3",
     connection: {
@@ -23,7 +24,7 @@ module.exports = {
     },
     seeds: {
       directory: "./data/seeds",
-    },
+    }
   },
 
 production: {
@@ -34,6 +35,6 @@ production: {
   },
   seeds: {
     directory: "./data/seeds",
-  },
+  }
 }
-};
+}
